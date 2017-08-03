@@ -1,0 +1,13 @@
+
+body {
+    padding-top: 70px;
+}
+
+.table tbody tr:hover{
+    cursor: pointer;
+}
+@media print {
+    body {
+        padding-top:0px;
+    }
+}
